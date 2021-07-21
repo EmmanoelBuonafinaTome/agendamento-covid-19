@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.header-agendamento {
+    align-items: center;
+    margin: 1%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid;
+}
