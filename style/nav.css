@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    background-color: var(--color02);
+    border-top: 2px solid var(--color03);
+    border-bottom: 2px solid var(--color03);
+    text-align: center;
+}
+
+nav a{
+    color: var(--color04);
+    text-decoration: none;
+    padding: 20px;
+    font-family: var(--font01);
+    font-weight: bolder;
+}
+
+nav a:hover{
+    color: var(--color03);
+    transition: .5s;
+}
