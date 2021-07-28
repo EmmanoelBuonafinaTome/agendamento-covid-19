@@ -1,21 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-:root{
-    --color01: #DADADA;
-    --color02: #223078;
-    --color03: #DB901A;
-    --color04: #FFFFFF;
-
-    --font01: 'Mulish', sans-serif;
-    --font02: 'Roboto', sans-serif;
+main{
+    margin: 25px auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    border-radius: 15px;
+    padding: 25px;
+    font-family: var(--font01);
 }
 
-*{
-    margin: 0;
-    padding: 0;
+article > h2{
+    text-align: center;
 }
 
-body{
-    background-color: var(--color04);
+article > p{
+    text-align: justify;
+    padding: 10px;
+}
+
+main > form > fieldset{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+fieldset{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+fieldset > div{
+    margin: auto;
+}
+
+fieldset > div > div{
+    padding: 5px;
+}
+
+fieldset > div > div > label{
+    font-size: 1.1em;
+}
+
+fieldset > div > div > input{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 7px;
+    font-size: 1em;
+    width: 400px;
+}
+
+fieldset > div > div > input:hover{
+    background-color: var(--color01);
+    border: 1px  solid var(--color03)
+}
+
+fieldset > div > div > select{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 7px;
+    font-size: 1em;
+    width: 412px;
+}
+
+fieldset > div > div > select:hover{
+    background-color: var(--color01);
+    border: 1px  solid var(--color03)
+}
+
+.div-zone-label{
+    text-align: center;
+    padding: 25px;
+}
+
+.div-zone{
+    text-align: center;
+    width: 412px;
+    margin: auto;
+}
+
+.div-zone > label{
+    padding: 10px;
+}
+
+form > button{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-color: var(--color01);
+    border: 2px solid var(--color03);
+    height: 50px;
+    width: 125px;
+    margin-top: 20px;
+}
+
+button:hover{
+    color: var(--color03);
+    background-color: var(--color02);
+    transition: .5s;
 }

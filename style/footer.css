@@ -1,0 +1,21 @@
+footer{
+    background-color: var(--color02);
+    border-top: 2px solid var(--color03);
+    text-align: center;
+}
+
+footer > p{
+    color: white;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: var(--color03);
+}

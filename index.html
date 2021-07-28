@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/default-settings.css">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/footer.css">
     <title>Agendamento Vacina</title>
 </head>
 <body>
     <header>
-        <img src="image/prefeitura-de-braganca-paulista-sp.png" alt="">
-        <h1>PREFEITURA MUNICIPAL DE BRAGANÇA PAULISTA</h1>
-        <h2>Vacinação contra o COVID-19</h2>
+        <div>
+            <img src="image/prefeitura-de-braganca-paulista-sp.png" alt="">
+            <h1>PREFEITURA MUNICIPAL DE BRAGANÇA PAULISTA</h1>
+        </div>
+        <div>
+            <h2>Vacinação contra o COVID-19</h2>
+        </div>
     </header>
     <nav>
         <a href="">Home</a>
@@ -31,24 +38,129 @@
                 A vacina será aplicada mediante do comprovante de residencia no local de vacinção.
             </p>
         </article>
-        <fieldset>
-            <form action="">
-                <label for="">CPF</label>
-                <input type="text">
-                <label for="">Nome</label>
-                <input type="text">
-                <label for="">Nome da Mãe</label>
-                <input type="text">
-                <label for="">Nome Social</label>
-                <input type="text">
-                <label for="">Data Nascimento</label>
-                <input type="text">
-            </form>
-        </fieldset>
+        <form action="">
+            <fieldset>
+                <div>
+                    <div>
+                        <label for="">CPF</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                    <label for="">Nome</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Nome da Mãe</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="">Nome Social</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Data Nascimento</label>
+                        <input type="date">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <div>
+                        <label for="">Unidade de Saúde que Trabalha</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                    <label for="">Cargo que Ocupa</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Grupo</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="">Unidade de Vacinação</label>
+                        <select name="" id="">
+                            <option value="">Selecione</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Dia de Agendamento</label>
+                        <select name="" id="">
+                            <option value="">Selecione</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Horario de Agendamento</label>
+                        <select name="" id="">
+                            <option value="">Selecione</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <div>
+                        <label for="">CEP</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                    <label for="">Numero</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Complemento</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="">Logradouro</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Bairo</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Municipio</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="">E-mail</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Telefone</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Telefone</label>
+                        <input type="text">
+                    </div>
+                </div>
+                    <div class="div-zone">
+                        <div class="div--zone-label">
+                            <label for="">Zona</label>
+                        </div>
+                        <input type="Radio">
+                        <label for="">Urbana</label>
+                        <input type="Radio">
+                        <label for="">Zona Rural</label>
+                    </div>
+            </fieldset>
+            <button>Enviar</button>
+        </form>
     </main>
     <footer>
         <p>Prefeitura de Bragança Paulista</p>
-        <p>WebSite Buildy by Emmanoel Buonafina Tomé</p>
+        <p>WebSite Build by <a href="https://github.com/EmmanoelBuonafinaTome" target="_blank" rel="external"
+            >Emmanoel Buonafina Tomé</a></p>
     </footer>
 </body>
 </html>
